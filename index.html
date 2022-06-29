@@ -224,96 +224,9 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Pengembangan dan Pencarian Web
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="." class="md-nav__link md-nav__link--active">
         Pengembangan dan Pencarian Web
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#algoritma_selisih_maju" class="md-nav__link">
-    Algoritma Selisih Maju
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#python_selisih_maju" class="md-nav__link">
-    Python Selisih maju
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#metode_selisih_mundur" class="md-nav__link">
-    Metode Selisih Mundur
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#algoritma_selisih_mundur" class="md-nav__link">
-    Algoritma Selisih Mundur
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#python_selisih_mundur" class="md-nav__link">
-    python selisih mundur
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#metode_selisih_tengah" class="md-nav__link">
-    Metode Selisih Tengah
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#algoritma_selisih_tengah" class="md-nav__link">
-    Algoritma Selisih Tengah
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#python_selisih_tengah" class="md-nav__link">
-    Python Selisih Tengah
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#refrensi" class="md-nav__link">
-    Refrensi
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -338,77 +251,6 @@
   
     
   
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#algoritma_selisih_maju" class="md-nav__link">
-    Algoritma Selisih Maju
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#python_selisih_maju" class="md-nav__link">
-    Python Selisih maju
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#metode_selisih_mundur" class="md-nav__link">
-    Metode Selisih Mundur
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#algoritma_selisih_mundur" class="md-nav__link">
-    Algoritma Selisih Mundur
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#python_selisih_mundur" class="md-nav__link">
-    python selisih mundur
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#metode_selisih_tengah" class="md-nav__link">
-    Metode Selisih Tengah
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#algoritma_selisih_tengah" class="md-nav__link">
-    Algoritma Selisih Tengah
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#python_selisih_tengah" class="md-nav__link">
-    Python Selisih Tengah
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#refrensi" class="md-nav__link">
-    Refrensi
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -462,177 +304,49 @@
 <div class="codehilite"><pre><span></span><code><span class="n">pip</span> <span class="n">install</span> <span class="n">scrapy</span>
 </code></pre></div>
 
-<p>setelah menginstall scrapy, untuk menjalankan code diatas dengan membuka command prompt lalu ketik :</p>
+<p>Setelah menginstall scrapy, untuk menjalankan code diatas dengan membuka command prompt lalu ketik :</p>
 <div class="codehilite"><pre><span></span><code><span class="n">scrapy</span> <span class="n">runspider</span> <span class="n">namafile</span><span class="o">.</span><span class="n">py</span> <span class="o">-</span><span class="n">o</span> <span class="n">hasil</span><span class="o">.</span><span class="n">csv</span> 
 </code></pre></div>
 
-<p>contoh soal tentukan hampiran selisih maju dari persamaan berikut</p>
-<h4 id="algoritma_selisih_maju">Algoritma Selisih Maju<a class="headerlink" href="#algoritma_selisih_maju" title="Permanent link">&para;</a></h4>
-<ol>
-<li>
-<p>inisialisasi fungsi f(x) yang mau dicari</p>
-</li>
-<li>
-<p>definisikan  fungsi turunan f*eksak(x) sebenarnya</p>
-</li>
-<li>
-<p>masukkan nilai pendekatan a sebagai batas bawah, b untuk batas atas dan h untuk nilai step</p>
-</li>
-<li>
-<p>untuk x=a sampai b hitung:
-   <script type="math/tex; mode=display">
-   f'\left( x\right) =\dfrac{f\left( x+h\right) -f\left( x\right) }{h}
-   </script>
-</p>
-</li>
-<li>
-<p>tampilkan nilai x, f(x), f'(x) dan f'eksak(x)</p>
-</li>
-</ol>
-<h4 id="python_selisih_maju">Python Selisih maju<a class="headerlink" href="#python_selisih_maju" title="Permanent link">&para;</a></h4>
-<div class="codehilite"><pre><span></span><code><span class="kn">import</span> <span class="nn">math</span>
-<span class="n">a</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;mashukkan batas bawah: &quot;</span><span class="p">))</span>
-<span class="n">b</span><span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Masukkan batas atas: &quot;</span><span class="p">))</span>
-<span class="n">h</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;masukkan h: &quot;</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;====================&quot;</span><span class="p">)</span>
-<span class="n">jumeror</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="n">x</span><span class="o">=</span><span class="n">a</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;x               &#39;</span><span class="p">,</span><span class="s1">&#39;fx             &#39;</span><span class="p">,</span><span class="s1">&#39;feks           &#39;</span><span class="p">,</span><span class="s1">&#39;hasil          &#39;</span><span class="p">,</span><span class="s1">&#39;eror        &#39;</span><span class="p">)</span>
-<span class="k">while</span> <span class="p">(</span><span class="n">x</span><span class="o">&lt;=</span><span class="n">b</span><span class="o">+</span><span class="n">h</span><span class="p">):</span>
-    <span class="n">x1</span><span class="o">=</span><span class="n">x</span><span class="o">+</span><span class="n">h</span>
-    <span class="n">fx</span><span class="o">=</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="n">x</span><span class="p">)</span><span class="o">+</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">x</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span>
-    <span class="n">fx1</span><span class="o">=</span><span class="p">(</span><span class="n">x1</span><span class="o">*</span><span class="n">x1</span><span class="p">)</span><span class="o">+</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">x1</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span>
-    <span class="n">hasil</span><span class="o">=</span><span class="p">(</span><span class="n">fx1</span><span class="o">-</span><span class="n">fx</span><span class="p">)</span><span class="o">/</span><span class="n">h</span>
-    <span class="n">feks</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span class="n">x</span><span class="o">+</span><span class="mi">2</span>
-    <span class="n">eror</span><span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">fabs</span><span class="p">(</span><span class="n">feks</span><span class="o">-</span><span class="n">hasil</span><span class="p">)</span>
-    <span class="n">jumeror</span> <span class="o">+=</span> <span class="n">eror</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%.8f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">x</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s2">&quot;</span><span class="si">%.8f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">fx</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s2">&quot;</span><span class="si">%.8f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">feks</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span><span class="s2">&quot;</span><span class="si">%.8f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">hasil</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span><span class="s2">&quot;</span><span class="si">%.8f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">eror</span><span class="p">)</span>
-    <span class="n">x</span><span class="o">=</span><span class="n">x1</span>
-<span class="n">rataeror</span> <span class="o">=</span> <span class="n">jumeror</span><span class="o">/</span><span class="p">((</span><span class="n">b</span><span class="o">-</span><span class="n">a</span><span class="p">)</span><span class="o">/</span><span class="n">h</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;rata-rata eror = &quot;</span><span class="p">,</span><span class="n">rataeror</span><span class="p">)</span>
+<p>Setelah mendapatkan file hasil dari crawling data dengan nama file hasil.csv. Selanjutnya menghilangkan baris kosong pada data dengan menggunakan code sebagai berikut :</p>
+<p>Import library yang diperlukan seperti dibawah ini.</p>
+<div class="codehilite"><pre><span></span><code><span class="c1">#import nltk</span>
+<span class="kn">import</span> <span class="nn">nltk</span>
+<span class="kn">from</span> <span class="nn">nltk.corpus</span> <span class="kn">import</span> <span class="n">stopwords</span>
+<span class="kn">from</span> <span class="nn">nltk.tokenize</span> <span class="kn">import</span> <span class="n">word_tokenize</span><span class="p">,</span><span class="n">sent_tokenize</span>
+
+<span class="c1">#preprocessing</span>
+<span class="kn">from</span> <span class="nn">nltk.corpus</span> <span class="kn">import</span> <span class="n">stopwords</span>  <span class="c1">#stopwords</span>
+<span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">word_tokenize</span><span class="p">,</span><span class="n">sent_tokenize</span> <span class="c1"># tokenizing</span>
+<span class="kn">from</span> <span class="nn">nltk.stem</span> <span class="kn">import</span> <span class="n">PorterStemmer</span><span class="p">,</span><span class="n">LancasterStemmer</span>  <span class="c1"># using the Porter Stemmer and Lancaster Stemmer and others</span>
+<span class="kn">from</span> <span class="nn">nltk.stem.snowball</span> <span class="kn">import</span> <span class="n">SnowballStemmer</span>
+<span class="kn">from</span> <span class="nn">nltk.stem</span> <span class="kn">import</span> <span class="n">WordNetLemmatizer</span>  <span class="c1"># lammatizer from WordNet</span>
+
+<span class="c1"># for named entity recognition (NER)</span>
+<span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">ne_chunk</span>
+
+<span class="c1"># vectorizers for creating the document-term-matrix (DTM)</span>
+<span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">TfidfVectorizer</span><span class="p">,</span><span class="n">CountVectorizer</span>
+
+<span class="c1">#stop-words</span>
+<span class="n">stop_words</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">nltk</span><span class="o">.</span><span class="n">corpus</span><span class="o">.</span><span class="n">stopwords</span><span class="o">.</span><span class="n">words</span><span class="p">(</span><span class="s1">&#39;indonesian&#39;</span><span class="p">))</span>
 </code></pre></div>
 
-<h4 id="metode_selisih_mundur">Metode Selisih Mundur<a class="headerlink" href="#metode_selisih_mundur" title="Permanent link">&para;</a></h4>
-<p>Metode selisih mundur hampir sama dengan metode selisih maju hanya saja metode selisih mundu adalah kebalikannya metode selisih maju. Jadi rumus nya menjadi seperti berikut:
-<script type="math/tex; mode=display">
-f'\left( x\right) =\dfrac {f\left( x\right)-f\left( x+h\right) }{h}
-</script>
-dan untuk mencari erornya menggunakan rumus yang sama yaitu:
-<script type="math/tex; mode=display">
-E\left( f\right) =-\dfrac{1}{2}hf^{n}\left( x\right)
-</script>
-contoh  soal, tentukan hampiran selisih mundur dari persamaan berikut ini:
-<script type="math/tex; mode=display">
-f\left( x\right) =x^{2}+2x+1
-</script>
-</p>
-<h4 id="algoritma_selisih_mundur">Algoritma Selisih Mundur<a class="headerlink" href="#algoritma_selisih_mundur" title="Permanent link">&para;</a></h4>
-<ol>
-<li>
-<p>inisialisasi fungsi f(x) yang mau dicari</p>
-</li>
-<li>
-<p>definisikan  fungsi turunan f*eksak(x) sebenarnya</p>
-</li>
-<li>
-<p>masukkan nilai pendekatan a sebagai batas bawah, b untuk batas atas dan h untuk nilai step</p>
-</li>
-<li>
-<p>untuk x=a sampai b hitung:
-   <script type="math/tex; mode=display">
-   f'\left( x\right) =\dfrac {f\left( x\right)-f\left( x+h\right) }{h}
-   </script>
-</p>
-</li>
-<li>
-<p>tampilkan nilai x, f(x), f'(x) dan f'eksak(x)</p>
-</li>
-</ol>
-<h4 id="python_selisih_mundur">python selisih mundur<a class="headerlink" href="#python_selisih_mundur" title="Permanent link">&para;</a></h4>
-<div class="codehilite"><pre><span></span><code><span class="kn">import</span> <span class="nn">math</span>
-<span class="n">a</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;mashukkan batas bawah: &quot;</span><span class="p">))</span>
-<span class="n">b</span><span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Masukkan batas atas: &quot;</span><span class="p">))</span>
-<span class="n">h</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;masukkan h: &quot;</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Persamaan: f(x) = x^2 +2x +1&quot;</span><span class="p">)</span>
-<span class="n">jumeror</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="n">x</span><span class="o">=</span><span class="n">a</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;x               &#39;</span><span class="p">,</span><span class="s1">&#39;fx             &#39;</span><span class="p">,</span><span class="s1">&#39;feks           &#39;</span><span class="p">,</span><span class="s1">&#39;hasil          &#39;</span><span class="p">,</span><span class="s1">&#39;eror        &#39;</span><span class="p">)</span>
-<span class="k">while</span> <span class="p">(</span><span class="n">x</span><span class="o">&lt;=</span><span class="n">b</span><span class="o">+</span><span class="n">h</span><span class="p">):</span>
-    <span class="n">x1</span><span class="o">=</span><span class="n">x</span><span class="o">+</span><span class="n">h</span>
-    <span class="n">fx</span><span class="o">=</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="n">x</span><span class="p">)</span><span class="o">+</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">x</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span>
-    <span class="n">fx1</span><span class="o">=</span><span class="p">(</span><span class="n">x1</span><span class="o">*</span><span class="n">x1</span><span class="p">)</span><span class="o">+</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">x1</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span>
-    <span class="n">hasil</span><span class="o">=</span><span class="p">(</span><span class="n">fx1</span><span class="o">-</span><span class="n">fx</span><span class="p">)</span><span class="o">/</span><span class="n">h</span>
-    <span class="n">feks</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span class="n">x</span><span class="o">+</span><span class="mi">2</span>
-    <span class="n">eror</span><span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">fabs</span><span class="p">(</span><span class="n">hasil</span><span class="o">-</span><span class="n">feks</span><span class="p">)</span>
-    <span class="n">jumeror</span> <span class="o">+=</span> <span class="n">eror</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%.8f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">x</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s2">&quot;</span><span class="si">%.8f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">fx</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s2">&quot;</span><span class="si">%.8f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">feks</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span><span class="s2">&quot;</span><span class="si">%.8f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">hasil</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span><span class="s2">&quot;</span><span class="si">%.8f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">eror</span><span class="p">)</span>
-    <span class="n">x</span><span class="o">=</span><span class="n">x1</span>
-<span class="n">rataeror</span> <span class="o">=</span> <span class="n">jumeror</span><span class="o">/</span><span class="p">((</span><span class="n">b</span><span class="o">-</span><span class="n">a</span><span class="p">)</span><span class="o">/</span><span class="n">h</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;rata-rata eror = &quot;</span><span class="p">,</span><span class="n">rataeror</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><code><span class="n">data</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;hasil.csv&#39;</span><span class="p">)</span>
 </code></pre></div>
 
-<h4 id="metode_selisih_tengah">Metode Selisih Tengah<a class="headerlink" href="#metode_selisih_tengah" title="Permanent link">&para;</a></h4>
-<p>Metode selisih tengah merupakan rata rata dari dua selisih maju, jadi rumusnya sebagai berikut:
-<script type="math/tex; mode=display">
-f'\left( x\right) =\dfrac{f\left( x+h\right) -f\left( x-h\right) }{2h}
-</script>
-contoh soal tentukan hampiran selisih tengah dari persamaan berikut:
-<script type="math/tex; mode=display">
-f\left( x\right) =x^{2}+2x+1
-</script>
-</p>
-<h4 id="algoritma_selisih_tengah">Algoritma Selisih Tengah<a class="headerlink" href="#algoritma_selisih_tengah" title="Permanent link">&para;</a></h4>
-<ol>
-<li>
-<p>inisialisasi fungsi f(x) yang mau dicari</p>
-</li>
-<li>
-<p>definisikan  fungsi turunan f*eksak(x) sebenarnya</p>
-</li>
-<li>
-<p>masukkan nilai pendekatan a sebagai batas bawah, b untuk batas atas dan h untuk nilai step</p>
-</li>
-<li>
-<p>untuk x=a sampai b hitung:
-   <script type="math/tex; mode=display">
-   f'\left( x\right) =\dfrac{f\left( x+h\right) -f\left( x-h\right) }{2h}
-   </script>
-</p>
-</li>
-<li>
-<p>tampilkan nilai x, f(x), f'(x) dan f'eksak(x)</p>
-</li>
-</ol>
-<h4 id="python_selisih_tengah">Python Selisih Tengah<a class="headerlink" href="#python_selisih_tengah" title="Permanent link">&para;</a></h4>
-<div class="codehilite"><pre><span></span><code><span class="kn">import</span> <span class="nn">math</span>
-<span class="n">a</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;mashukkan batas bawah: &quot;</span><span class="p">))</span>
-<span class="n">b</span><span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Masukkan batas atas: &quot;</span><span class="p">))</span>
-<span class="n">h</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;masukkan h: &quot;</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Persamaan: f(x) = x^2 +2x +1</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="n">jumeror</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="n">x</span><span class="o">=</span><span class="n">a</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;x               &#39;</span><span class="p">,</span><span class="s1">&#39;fx             &#39;</span><span class="p">,</span><span class="s1">&#39;feks           &#39;</span><span class="p">,</span><span class="s1">&#39;hasil          &#39;</span><span class="p">,</span><span class="s1">&#39;eror        &#39;</span><span class="p">)</span>
-<span class="k">while</span> <span class="p">(</span><span class="n">x</span><span class="o">&lt;=</span><span class="n">b</span><span class="o">+</span><span class="n">h</span><span class="p">):</span>
-    <span class="n">x1</span><span class="o">=</span><span class="n">x</span><span class="o">+</span><span class="n">h</span>
-    <span class="n">x2</span><span class="o">=</span><span class="n">x</span><span class="o">-</span><span class="n">h</span>
-    <span class="n">fx</span><span class="o">=</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="n">x</span><span class="p">)</span><span class="o">+</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">x</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span>
-    <span class="n">fx1</span><span class="o">=</span><span class="p">(</span><span class="n">x1</span><span class="o">*</span><span class="n">x1</span><span class="p">)</span><span class="o">+</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">x1</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span>
-    <span class="n">fx2</span><span class="o">=</span><span class="p">(</span><span class="n">x2</span><span class="o">*</span><span class="n">x2</span><span class="p">)</span><span class="o">+</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">x2</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span>
-    <span class="n">hasil</span><span class="o">=</span><span class="p">(</span><span class="n">fx1</span><span class="o">-</span><span class="n">fx2</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">h</span><span class="p">)</span>
-    <span class="n">feks</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span class="n">x</span><span class="o">+</span><span class="mi">2</span>
-    <span class="n">eror</span><span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">fabs</span><span class="p">(</span><span class="n">feks</span><span class="o">-</span><span class="n">hasil</span><span class="p">)</span>
-    <span class="n">jumeror</span> <span class="o">=</span> <span class="n">jumeror</span> <span class="o">+</span> <span class="n">eror</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%.8f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">x</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s2">&quot;</span><span class="si">%.8f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">fx</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s2">&quot;</span><span class="si">%.8f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">feks</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span><span class="s2">&quot;</span><span class="si">%.8f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">hasil</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span><span class="s2">&quot;</span><span class="si">%.8f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">eror</span><span class="p">)</span>
-    <span class="n">x</span><span class="o">=</span><span class="n">x1</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;jumeror: &quot;</span><span class="p">,</span> <span class="n">jumeror</span><span class="p">)</span>
-<span class="n">rataeror</span> <span class="o">=</span> <span class="n">jumeror</span><span class="o">/</span><span class="p">((</span><span class="n">b</span><span class="o">-</span><span class="n">a</span><span class="p">)</span><span class="o">/</span><span class="n">h</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;rata-rata eror = &quot;</span><span class="p">,</span><span class="n">rataeror</span><span class="p">)</span>
+<p>Code menghilangkan baris kosong :</p>
+<div class="codehilite"><pre><span></span><code><span class="n">data</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">data</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 </code></pre></div>
 
-<h4 id="refrensi">Refrensi<a class="headerlink" href="#refrensi" title="Permanent link">&para;</a></h4>
-<p><a href="https://d4anm2017a.wordpress.com/2017/10/19/diferensiasi-numerik/">Diferensiasi Numerik – Komputasi Numerik (wordpress.com)</a></p>
-<p><a href="http://zai.lecturer.pens.ac.id/Kuliah/Workshop%20Metode%20Numerik/Teori/Differensiasi%20Numerik%20Selisih%20Maju.pdf">Diferensiasial Numeri Selisih Maju</a></p>
-<p><a href="https://informatika.stei.itb.ac.id/~rinaldi.munir/MetNum/2010-2011/Turunan%20Numerik.pdf">Differensial Numerik Selisih Tengah</a></p>
+<p>Setelah menghilangkan baris kosong, data disimpan dengan format hasil.xlsx</p>
+<div class="codehilite"><pre><span></span><code><span class="n">data</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="s2">&quot;baris_kosong.xlsx&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<p>Menampilkan data yang telah dihilangkan baris kosongnya.</p>
+<div class="codehilite"><pre><span></span><code><span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</code></pre></div>
 
               
             </article>
